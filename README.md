@@ -18,3 +18,11 @@ create a jar file
 ``` bash
 jar cf MyJARFile.jar MyJavaFile*.class # change the name of the jar file and name of the class
 ```
+
+run hadoop
+```bash
+hadoop jar Jarfile.jar Class input output # change the Jarfile, Class, input and output
+# example: hadoop jar wc.jar WordCount META-INF out
+# run hadoop on wc.jar and call WordCount class get input from META-INF folder and output to out folder
+
+```
